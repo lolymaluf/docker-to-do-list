@@ -1,1 +1,1 @@
-docker rm --force container 02images
+docker rm --force 02images
