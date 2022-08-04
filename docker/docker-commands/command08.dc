@@ -1,1 +1,1 @@
-docker stop container 02images
+docker rm --force container 02images
