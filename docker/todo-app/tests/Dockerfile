@@ -1,8 +1,8 @@
-FROM node:14-alpine AS todotests
+FROM mjgargani/puppeteer:trybe1.0
 
-WORKDIR /todo-app
+WORKDIR /app
 
-ADD mjgargani/puppeteer:trybe1.0 .
+ADD node_modules.tar.gz .
 
 COPY . .
 
